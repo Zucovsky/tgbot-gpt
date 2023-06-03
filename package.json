@@ -1,0 +1,24 @@
+{
+  "name": "bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./src/main.js",
+    "start": "cross-env NODE_ENV=production node ./src/main.js"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.4.0",
+    "config": "^3.3.9",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "openai": "^3.2.1",
+    "path": "^0.12.7",
+    "telegraf": "^4.12.2",
+    "url": "^0.11.0"
+  }
+}
